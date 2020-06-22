@@ -2808,44 +2808,6 @@
     },
     {
       "Aliases": [
-        "!ubl"
-      ],
-      "Description": "Either [add]s or [rem]oves a user specified by a Mention or an ID from a blacklist.**Bot owner only**",
-      "Usage": [
-        "!ubl add @SomeUser",
-        "!ubl rem 12312312313"
-      ],
-      "Submodule": "BlacklistCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!cbl"
-      ],
-      "Description": "Either [add]s or [rem]oves a channel specified by an ID from a blacklist.**Bot owner only**",
-      "Usage": [
-        "!cbl rem 12312312312"
-      ],
-      "Submodule": "BlacklistCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!sbl"
-      ],
-      "Description": "Either [add]s or [rem]oves a server specified by a Name or an ID from a blacklist.**Bot owner only**",
-      "Usage": [
-        "!sbl add 12312321312",
-        "!sbl rem SomeTrashServer"
-      ],
-      "Submodule": "BlacklistCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!cmdcooldown",
         "!cmdcd"
       ],
@@ -2949,62 +2911,11 @@
     },
     {
       "Aliases": [
-        "!listglobalperms",
-        "!lgp"
-      ],
-      "Description": "Lists global permissions set by the bot owner.**Bot owner only**",
-      "Usage": [
-        "!lgp"
-      ],
-      "Submodule": "GlobalPermissionCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!globalmodule",
-        "!gmod"
-      ],
-      "Description": "Toggles whether a module can be used on any server.**Bot owner only**",
-      "Usage": [
-        "!gmod nsfw"
-      ],
-      "Submodule": "GlobalPermissionCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!globalcommand",
-        "!gcmd"
-      ],
-      "Description": "Toggles whether a command can be used on any server.**Bot owner only**",
-      "Usage": [
-        "!gcmd .stats"
-      ],
-      "Submodule": "GlobalPermissionCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!resetperms"
       ],
       "Description": "Resets the bot's permissions module on this server to the default value.**Requires Administrator server permission.**",
       "Usage": [
         "!resetperms"
-      ],
-      "Submodule": "ResetPermissionsCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!resetglobalperms"
-      ],
-      "Description": "Resets global permissions set by bot owner.**Bot owner only**",
-      "Usage": [
-        "!resetglobalperms"
       ],
       "Submodule": "ResetPermissionsCommands",
       "Module": "Permissions",
@@ -3923,20 +3834,6 @@
     },
     {
       "Aliases": [
-        "!autotrans",
-        "!at"
-      ],
-      "Description": "Starts automatic translation of all messages by users who set their `.atl` in this channel. You can set \"del\" argument to automatically delete all translated user messages.**Requires Administrator server permission.** **Bot owner only**",
-      "Usage": [
-        "!at",
-        "!at del"
-      ],
-      "Submodule": "TranslateCommands",
-      "Module": "Searches",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!autotranslang",
         "!atl"
       ],
@@ -4146,30 +4043,6 @@
     },
     {
       "Aliases": [
-        "!listservers"
-      ],
-      "Description": "Lists servers the bot is on with some basic info. 15 per page.**Bot owner only**",
-      "Usage": [
-        "!listservers 3"
-      ],
-      "Submodule": "Utility",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!savechat"
-      ],
-      "Description": "Saves a number of messages to a text file and sends it to you.**Bot owner only**",
-      "Usage": [
-        "!savechat 150"
-      ],
-      "Submodule": "Utility",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!ping"
       ],
       "Description": "Ping the bot to see if there are latency issues.",
@@ -4177,20 +4050,6 @@
         "!ping"
       ],
       "Submodule": "Utility",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!botconfigedit",
-        "!bce"
-      ],
-      "Description": "Sets one of available bot config settings to a specified value. Use the command without any parameters to get a list of available settings.**Bot owner only**",
-      "Usage": [
-        "!bce CurrencyName Sekushi",
-        "!bce"
-      ],
-      "Submodule": "BotConfigCommands",
       "Module": "Utility",
       "Options": null
     },
@@ -4282,18 +4141,6 @@
       "Description": "Shows info about the user. If no user is supplied, it defaults a user running the command.",
       "Usage": [
         "!uinfo @SomeUser"
-      ],
-      "Submodule": "InfoCommands",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!activity"
-      ],
-      "Description": "Checks for spammers.**Bot owner only**",
-      "Usage": [
-        "!activity"
       ],
       "Submodule": "InfoCommands",
       "Module": "Utility",
@@ -4455,18 +4302,6 @@
     },
     {
       "Aliases": [
-        "!remindtemplate"
-      ],
-      "Description": "Sets message for when the remind is triggered.  Available placeholders are `%user%` - user who ran the command, `%message%` - Message specified in the remind, `%target%` - target channel of the remind.**Bot owner only**",
-      "Usage": [
-        "!remindtemplate %user%, do %message%!"
-      ],
-      "Submodule": "RemindCommands",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!repeatinvoke",
         "!repinv"
       ],
@@ -4618,23 +4453,6 @@
       "Description": "Shows your xp stats. Specify the user to show that user's stats instead.",
       "Usage": [
         "!xp"
-      ],
-      "Submodule": "Xp",
-      "Module": "Xp",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!xplvluprewards",
-        "!xprews",
-        "!xpcrs",
-        "!xprrs",
-        "!xprolerewards",
-        "!xpcurrewards"
-      ],
-      "Description": "Shows currently set level up rewards.",
-      "Usage": [
-        "!xprews"
       ],
       "Submodule": "Xp",
       "Module": "Xp",
