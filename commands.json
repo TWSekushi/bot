@@ -149,66 +149,6 @@
     },
     {
       "Aliases": [
-        "!execsql"
-      ],
-      "Description": "Executes an sql command and returns the number of affected rows. Dangerous.**Bot owner only**",
-      "Usage": [
-        "!execsql UPDATE Currency SET Amount=Amount+1234"
-      ],
-      "Submodule": "DangerousCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!deletewaifus"
-      ],
-      "Description": "Deletes everything from WaifuUpdates and WaifuInfo tables.**Bot owner only**",
-      "Usage": [
-        "!deletewaifus"
-      ],
-      "Submodule": "DangerousCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!deletecurrency"
-      ],
-      "Description": "Deletes everything from Currency and CurrencyTransactions.**Bot owner only**",
-      "Usage": [
-        "!deletecurrency"
-      ],
-      "Submodule": "DangerousCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!deleteplaylists"
-      ],
-      "Description": "Deletes everything from MusicPlaylists.**Bot owner only**",
-      "Usage": [
-        "!deleteplaylists"
-      ],
-      "Submodule": "DangerousCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!deleteexp"
-      ],
-      "Description": "deleteexp**Bot owner only**",
-      "Usage": [
-        "deleteexp"
-      ],
-      "Submodule": "DangerousCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!gvc"
       ],
       "Description": "Toggles game voice channel feature in the voice channel you're currently in. Users who join the game voice channel will get automatically redirected to the voice channel with the name of their current game, if it exists. Can't move users to channels that the bot has no connect permission for. One per server.**Requires Administrator server permission.**",
@@ -257,56 +197,6 @@
         "!langli"
       ],
       "Submodule": "LocalizationCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!logserver"
-      ],
-      "Description": "Enables or Disables ALL log events. If enabled, all log events will log to this channel.**Requires Administrator server permission.** **Bot owner only**",
-      "Usage": [
-        "!logserver enable",
-        "!logserver disable"
-      ],
-      "Submodule": "LogCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!logignore"
-      ],
-      "Description": "Toggles whether the `.logserver` command ignores this channel. Useful if you have hidden admin channel and public log channel.**Requires Administrator server permission.** **Bot owner only**",
-      "Usage": [
-        "!logignore"
-      ],
-      "Submodule": "LogCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!logevents"
-      ],
-      "Description": "Shows a list of all events you can subscribe to with `.log`**Requires Administrator server permission.** **Bot owner only**",
-      "Usage": [
-        "!logevents"
-      ],
-      "Submodule": "LogCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!log"
-      ],
-      "Description": "Toggles logging event. Disables it if it is active anywhere on the server. Enables if it isn't active. Use `.logevents` to see a list of all events you can subscribe to.**Requires Administrator server permission.** **Bot owner only**",
-      "Usage": [
-        "!log userpresence",
-        "!log userbanned"
-      ],
-      "Submodule": "LogCommands",
       "Module": "Administration",
       "Options": null
     },
@@ -397,77 +287,11 @@
     },
     {
       "Aliases": [
-        "!rotateplaying",
-        "!ropl"
-      ],
-      "Description": "Toggles rotation of playing status of the dynamic strings you previously specified.**Bot owner only**",
-      "Usage": [
-        "!ropl"
-      ],
-      "Submodule": "PlayingRotateCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!addplaying",
-        "!adpl"
-      ],
-      "Description": "Adds a specified string to the list of playing strings to rotate. You have to pick either 'Playing', 'Watching' or 'Listening' as the first parameter. Supported placeholders: `%servers%`, `%users%`, `%playing%`, `%queued%`, `%time%`, `%shardid%`, `%shardcount%`, `%shardguilds%`.**Bot owner only**",
-      "Usage": [
-        "!adpl Playing with you",
-        "!adpl Watching you sleep"
-      ],
-      "Submodule": "PlayingRotateCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!listplaying",
-        "!lipl"
-      ],
-      "Description": "Lists all playing statuses with their corresponding number.**Bot owner only**",
-      "Usage": [
-        "!lipl"
-      ],
-      "Submodule": "PlayingRotateCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!removeplaying",
-        "!rmpl",
-        "!repl"
-      ],
-      "Description": "Removes a playing string on a given number.**Bot owner only**",
-      "Usage": [
-        "!rmpl"
-      ],
-      "Submodule": "PlayingRotateCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!prefix"
       ],
       "Description": "Sets this server's prefix for all bot commands. Provide no arguments to see the current server prefix. **Setting prefix requires Administrator server permission.**",
       "Usage": [
         "!prefix +"
-      ],
-      "Submodule": "PrefixCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!defprefix"
-      ],
-      "Description": "Sets bot's default prefix for all bot commands. Provide no arguments to see the current default prefix. This will not change this server's current prefix.**Bot owner only**",
-      "Usage": [
-        "!defprefix +"
       ],
       "Submodule": "PrefixCommands",
       "Module": "Administration",
@@ -817,265 +641,6 @@
     },
     {
       "Aliases": [
-        "!scadd"
-      ],
-      "Description": "Adds a command to the list of commands which will be executed automatically in the current channel, in the order they were added in, by the bot when it startups up.**Bot owner only**",
-      "Usage": [
-        "!scadd .stats"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!sclist"
-      ],
-      "Description": "Lists all startup commands in the order they will be executed in.**Bot owner only**",
-      "Usage": [
-        "!sclist"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!wait"
-      ],
-      "Description": "Used only as a startup command. Waits a certain number of miliseconds before continuing the execution of the following startup commands.**Bot owner only**",
-      "Usage": [
-        "!wait 3000"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!scrm"
-      ],
-      "Description": "Removes a startup command with the provided command text.**Bot owner only**",
-      "Usage": [
-        "!scrm .stats"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!scclr"
-      ],
-      "Description": "Removes all startup commands.**Bot owner only**",
-      "Usage": [
-        "!scclr"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!fwmsgs"
-      ],
-      "Description": "Toggles forwarding of non-command messages sent to bot's DM to the bot owners**Bot owner only**",
-      "Usage": [
-        "!fwmsgs"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!fwtoall"
-      ],
-      "Description": "Toggles whether messages will be forwarded to all bot owners or only to the first one specified in the credentials.json file**Bot owner only**",
-      "Usage": [
-        "!fwtoall"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!shardstats"
-      ],
-      "Description": "Stats for shards. Paginated with 25 shards per page.",
-      "Usage": [
-        "!shardstats",
-        "!shardstats 2"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!restartshard"
-      ],
-      "Description": "Try (re)connecting a shard with a certain shardid when it dies. No one knows will it work. Keep an eye on the console for errors.**Bot owner only**",
-      "Usage": [
-        "!restartshard 2"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!leave"
-      ],
-      "Description": "Makes Little Helper leave the server. Either server name or server ID is required.**Bot owner only**",
-      "Usage": [
-        "!leave 123123123331"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!die"
-      ],
-      "Description": "Shuts the bot down.**Bot owner only**",
-      "Usage": [
-        "!die"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!restart"
-      ],
-      "Description": "Restarts the bot. Might not work.**Bot owner only**",
-      "Usage": [
-        "!restart"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!setname",
-        "!newnm"
-      ],
-      "Description": "Gives the bot a new name.**Bot owner only**",
-      "Usage": [
-        "!newnm BotName"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!setnick"
-      ],
-      "Description": "Changes the nickname of the bot on this server. You can also target other users to change their nickname.**Requires ManageNicknames server permission.**",
-      "Usage": [
-        "!setnick BotNickname",
-        "!setnick @SomeUser New Nickname"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!setstatus"
-      ],
-      "Description": "Sets the bot's status. (Online/Idle/Dnd/Invisible)**Bot owner only**",
-      "Usage": [
-        "!setstatus Idle"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!setavatar",
-        "!setav"
-      ],
-      "Description": "Sets a new avatar image for the Little HelperBot. Argument is a direct link to an image.**Bot owner only**",
-      "Usage": [
-        "!setav http://i.imgur.com/xTG3a1I.jpg"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!setgame"
-      ],
-      "Description": "Sets the bots game status to either Playing, Listening, or Watching.**Bot owner only**",
-      "Usage": [
-        "!setgame Playing with snakes.",
-        "!setgame Watching anime.",
-        "!setgame Listening music."
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!setstream"
-      ],
-      "Description": "Sets the bots stream. First argument is the twitch link, second argument is stream name.**Bot owner only**",
-      "Usage": [
-        "!setstream TWITCHLINK Hello"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!send"
-      ],
-      "Description": "Sends a message to someone on a different server through the bot.  Separate server and channel/user ids with `|` and prefix the channel id with `c:` and the user id with `u:`.**Bot owner only**",
-      "Usage": [
-        "!send serverid|c:channelid message",
-        "!send serverid|u:userid message"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!imagesreload"
-      ],
-      "Description": "Reloads images bot is using. Safe to use even when bot is being used heavily.**Bot owner only**",
-      "Usage": [
-        "!imagesreload"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!botconfigreload"
-      ],
-      "Description": "Reloads bot configuration in case you made changes to the BotConfig table either with .execsql or manually in the .db file.**Bot owner only**",
-      "Usage": [
-        "!botconfigreload"
-      ],
-      "Submodule": "SelfCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!greetdel",
         "!grdel"
       ],
@@ -1204,7 +769,7 @@
       ],
       "Description": "Warns a user.**Requires BanMembers server permission.**",
       "Usage": [
-        "!warn @b1nzy Very rude person"
+        "!warn @Sekushi Very rude person"
       ],
       "Submodule": "UserPunishCommands",
       "Module": "Administration",
@@ -1216,7 +781,7 @@
       ],
       "Description": "See a list of warnings of a certain user.**Requires BanMembers server permission.**",
       "Usage": [
-        "!warnlog @b1nzy"
+        "!warnlog @Sekushi"
       ],
       "Submodule": "UserPunishCommands",
       "Module": "Administration",
@@ -1323,18 +888,6 @@
       "Description": "Kicks a mentioned user.**Requires KickMembers server permission.**",
       "Usage": [
         "!k \"@some Guy\" Your behaviour is toxic."
-      ],
-      "Submodule": "UserPunishCommands",
-      "Module": "Administration",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!masskill"
-      ],
-      "Description": "Specify a new-line separated list of `userid reason`. You can use Username#discrim instead of UserId. Specified users will be banned from the current server, blacklisted from the bot, and have all of their flowers taken away.**Requires BanMembers server permission.** **Bot owner only**",
-      "Usage": [
-        "!masskill BadPerson#1234 Toxic person"
       ],
       "Submodule": "UserPunishCommands",
       "Module": "Administration",
@@ -1484,19 +1037,6 @@
     },
     {
       "Aliases": [
-        "!crstatsclear"
-      ],
-      "Description": "Resets the counters on `.crstats`. You can specify a trigger to clear stats only for that trigger.**Bot owner only**",
-      "Usage": [
-        "!crstatsclear",
-        "!crstatsclear rng"
-      ],
-      "Submodule": "CustomReactions",
-      "Module": "CustomReactions",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!crstats"
       ],
       "Description": "Shows a list of custom reactions and the number of times they have been executed. Paginated with 10 per page. Use `.crstatsclear` to reset the counters.",
@@ -1517,31 +1057,6 @@
       "Description": "Use to claim your 'timely' currency. Bot owner has to specify the amount and the period on how often you can claim your currency.",
       "Usage": [
         "!timely"
-      ],
-      "Submodule": "Gambling",
-      "Module": "Gambling",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!timelyreset"
-      ],
-      "Description": "Resets all user timeouts on `.timely` command.**Bot owner only**",
-      "Usage": [
-        "!timelyreset"
-      ],
-      "Submodule": "Gambling",
-      "Module": "Gambling",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!timelyset"
-      ],
-      "Description": "Sets the 'timely' currency allowance amount for users. Second argument is period in hours, default is 24 hours.**Bot owner only**",
-      "Usage": [
-        "!timelyset 100",
-        "!timelyset 50 12"
       ],
       "Submodule": "Gambling",
       "Module": "Gambling",
@@ -1612,31 +1127,6 @@
       "Usage": [
         "!give 1 @SomeGuy",
         "!give 5 @CootGurl Ur so pwetty"
-      ],
-      "Submodule": "Gambling",
-      "Module": "Gambling",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!award"
-      ],
-      "Description": "Awards someone a certain amount of currency. You can specify the reason after the Username. You can also specify a role name to award currency to all users in a role.**Bot owner only**",
-      "Usage": [
-        "!award 100 @person",
-        "!award 5 Role Of Gamblers"
-      ],
-      "Submodule": "Gambling",
-      "Module": "Gambling",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!take"
-      ],
-      "Description": "Takes a certain amount of currency from someone.**Bot owner only**",
-      "Usage": [
-        "!take 1 @SomeGuy"
       ],
       "Submodule": "Gambling",
       "Module": "Gambling",
@@ -1768,19 +1258,6 @@
       "Submodule": "BlackJackCommands",
       "Module": "Gambling",
       "Options": null
-    },
-    {
-      "Aliases": [
-        "!eventstart"
-      ],
-      "Description": "Starts one of the events seen on public Little Helper. Events: `reaction`**Bot owner only**",
-      "Usage": [
-        "!eventstart reaction",
-        "!eventstart reaction -d 1 -a 50 --pot-size 1500"
-      ],
-      "Submodule": "CurrencyEventsCommands",
-      "Module": "Gambling",
-      "Options": "--amount (-a)   Amount of currency each user receives.\n--pot-size (-p)   The maximum amount of currency that can be rewarded. 0 means no limit.\n--duration (-d)   Number of hours the event should run for. Default 24."
     },
     {
       "Aliases": [
@@ -1967,30 +1444,6 @@
     },
     {
       "Aliases": [
-        "!slotstats"
-      ],
-      "Description": "Shows the total stats of the slot command for this bot's session.**Bot owner only**",
-      "Usage": [
-        "!slotstats"
-      ],
-      "Submodule": "SlotCommands",
-      "Module": "Gambling",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!slottest"
-      ],
-      "Description": "Tests to see how much slots payout for X number of plays.**Bot owner only**",
-      "Usage": [
-        "!slottest 1000"
-      ],
-      "Submodule": "SlotCommands",
-      "Module": "Gambling",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!slot"
       ],
       "Description": "Play Little Helper slots. Max bet is 9999. 1.5 second cooldown per user.",
@@ -2139,7 +1592,7 @@
       ],
       "Description": "Ask the 8ball a yes/no question.",
       "Usage": [
-        "!8ball Is b1nzy a nice guy?"
+        "!8ball Is Sekushi a nice guy?"
       ],
       "Submodule": "Games",
       "Module": "Games",
@@ -2370,36 +1823,12 @@
     },
     {
       "Aliases": [
-        "!typeadd"
-      ],
-      "Description": "Adds a new article to the typing contest.**Bot owner only**",
-      "Usage": [
-        "!typeadd wordswords"
-      ],
-      "Submodule": "SpeedTypingCommands",
-      "Module": "Games",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!typelist"
       ],
       "Description": "Lists added typing articles with their IDs. 15 per page.",
       "Usage": [
         "!typelist",
         "!typelist 3"
-      ],
-      "Submodule": "SpeedTypingCommands",
-      "Module": "Games",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!typedel"
-      ],
-      "Description": "Deletes a typing article given the ID.**Bot owner only**",
-      "Usage": [
-        "!typedel 3"
       ],
       "Submodule": "SpeedTypingCommands",
       "Module": "Games",
@@ -2494,18 +1923,6 @@
       "Usage": [
         "!h .cmds",
         "!h"
-      ],
-      "Submodule": "Help",
-      "Module": "Help",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!hgit"
-      ],
-      "Description": "Generates the commandlist.md file.**Bot owner only**",
-      "Usage": [
-        "!hgit"
       ],
       "Submodule": "Help",
       "Module": "Help",
@@ -2871,32 +2288,6 @@
     },
     {
       "Aliases": [
-        "!local",
-        "!lo"
-      ],
-      "Description": "Queues a local file by specifying a full path.**Bot owner only**",
-      "Usage": [
-        "!lo C:/music/mysong.mp3"
-      ],
-      "Submodule": "Music",
-      "Module": "Music",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!localplaylst",
-        "!lopl"
-      ],
-      "Description": "Queues all songs from a directory.**Bot owner only**",
-      "Usage": [
-        "!lopl C:/music/classical"
-      ],
-      "Submodule": "Music",
-      "Module": "Music",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!move",
         "!mv"
       ],
@@ -3191,19 +2582,6 @@
       "Module": "NSFW",
       "Options": null
     },
-    {
-      "Aliases": [
-        "!nsfwcc"
-      ],
-      "Description": "Clears nsfw cache.**Bot owner only**",
-      "Usage": [
-        "!nsfwcc"
-      ],
-      "Submodule": "NSFW",
-      "Module": "NSFW",
-      "Options": null
-    }
-  ],
   "Permissions": [
     {
       "Aliases": [
@@ -3429,44 +2807,6 @@
     },
     {
       "Aliases": [
-        "!ubl"
-      ],
-      "Description": "Either [add]s or [rem]oves a user specified by a Mention or an ID from a blacklist.**Bot owner only**",
-      "Usage": [
-        "!ubl add @SomeUser",
-        "!ubl rem 12312312313"
-      ],
-      "Submodule": "BlacklistCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!cbl"
-      ],
-      "Description": "Either [add]s or [rem]oves a channel specified by an ID from a blacklist.**Bot owner only**",
-      "Usage": [
-        "!cbl rem 12312312312"
-      ],
-      "Submodule": "BlacklistCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!sbl"
-      ],
-      "Description": "Either [add]s or [rem]oves a server specified by a Name or an ID from a blacklist.**Bot owner only**",
-      "Usage": [
-        "!sbl add 12312321312",
-        "!sbl rem SomeTrashServer"
-      ],
-      "Submodule": "BlacklistCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!cmdcooldown",
         "!cmdcd"
       ],
@@ -3570,45 +2910,6 @@
     },
     {
       "Aliases": [
-        "!listglobalperms",
-        "!lgp"
-      ],
-      "Description": "Lists global permissions set by the bot owner.**Bot owner only**",
-      "Usage": [
-        "!lgp"
-      ],
-      "Submodule": "GlobalPermissionCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!globalmodule",
-        "!gmod"
-      ],
-      "Description": "Toggles whether a module can be used on any server.**Bot owner only**",
-      "Usage": [
-        "!gmod nsfw"
-      ],
-      "Submodule": "GlobalPermissionCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!globalcommand",
-        "!gcmd"
-      ],
-      "Description": "Toggles whether a command can be used on any server.**Bot owner only**",
-      "Usage": [
-        "!gcmd .stats"
-      ],
-      "Submodule": "GlobalPermissionCommands",
-      "Module": "Permissions",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!resetperms"
       ],
       "Description": "Resets the bot's permissions module on this server to the default value.**Requires Administrator server permission.**",
@@ -3619,18 +2920,6 @@
       "Module": "Permissions",
       "Options": null
     },
-    {
-      "Aliases": [
-        "!resetglobalperms"
-      ],
-      "Description": "Resets global permissions set by bot owner.**Bot owner only**",
-      "Usage": [
-        "!resetglobalperms"
-      ],
-      "Submodule": "ResetPermissionsCommands",
-      "Module": "Permissions",
-      "Options": null
-    }
   ],
   "Pokemon": [
     {
@@ -4544,20 +3833,6 @@
     },
     {
       "Aliases": [
-        "!autotrans",
-        "!at"
-      ],
-      "Description": "Starts automatic translation of all messages by users who set their `.atl` in this channel. You can set \"del\" argument to automatically delete all translated user messages.**Requires Administrator server permission.** **Bot owner only**",
-      "Usage": [
-        "!at",
-        "!at del"
-      ],
-      "Submodule": "TranslateCommands",
-      "Module": "Searches",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!autotranslang",
         "!atl"
       ],
@@ -4767,30 +4042,6 @@
     },
     {
       "Aliases": [
-        "!listservers"
-      ],
-      "Description": "Lists servers the bot is on with some basic info. 15 per page.**Bot owner only**",
-      "Usage": [
-        "!listservers 3"
-      ],
-      "Submodule": "Utility",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!savechat"
-      ],
-      "Description": "Saves a number of messages to a text file and sends it to you.**Bot owner only**",
-      "Usage": [
-        "!savechat 150"
-      ],
-      "Submodule": "Utility",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!ping"
       ],
       "Description": "Ping the bot to see if there are latency issues.",
@@ -4798,20 +4049,6 @@
         "!ping"
       ],
       "Submodule": "Utility",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!botconfigedit",
-        "!bce"
-      ],
-      "Description": "Sets one of available bot config settings to a specified value. Use the command without any parameters to get a list of available settings.**Bot owner only**",
-      "Usage": [
-        "!bce CurrencyName b1nzy",
-        "!bce"
-      ],
-      "Submodule": "BotConfigCommands",
       "Module": "Utility",
       "Options": null
     },
@@ -4903,18 +4140,6 @@
       "Description": "Shows info about the user. If no user is supplied, it defaults a user running the command.",
       "Usage": [
         "!uinfo @SomeUser"
-      ],
-      "Submodule": "InfoCommands",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
-        "!activity"
-      ],
-      "Description": "Checks for spammers.**Bot owner only**",
-      "Usage": [
-        "!activity"
       ],
       "Submodule": "InfoCommands",
       "Module": "Utility",
@@ -5076,18 +4301,6 @@
     },
     {
       "Aliases": [
-        "!remindtemplate"
-      ],
-      "Description": "Sets message for when the remind is triggered.  Available placeholders are `%user%` - user who ran the command, `%message%` - Message specified in the remind, `%target%` - target channel of the remind.**Bot owner only**",
-      "Usage": [
-        "!remindtemplate %user%, do %message%!"
-      ],
-      "Submodule": "RemindCommands",
-      "Module": "Utility",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!repeatinvoke",
         "!repinv"
       ],
@@ -5171,8 +4384,8 @@
       ],
       "Description": "Adds or removes a blacklisted user. Blacklisted users will never receive the stream role.**Requires ManageRoles server permission.**",
       "Usage": [
-        "!srbl add @b1nzy#1234",
-        "!srbl rem @b1nzy#1234"
+        "!srbl add @Sekushi#1234",
+        "!srbl rem @Sekushi#1234"
       ],
       "Submodule": "StreamRoleCommands",
       "Module": "Utility",
@@ -5185,8 +4398,8 @@
       ],
       "Description": "Adds or removes a whitelisted user. Whitelisted users will receive the stream role even if they don't have the specified keyword in their stream title.**Requires ManageRoles server permission.**",
       "Usage": [
-        "!srwl add @b1nzy#1234",
-        "!srwl rem @b1nzy#1234"
+        "!srwl add @Sekushi#1234",
+        "!srwl rem @Sekushi#1234"
       ],
       "Submodule": "StreamRoleCommands",
       "Module": "Utility",
@@ -5276,19 +4489,6 @@
     },
     {
       "Aliases": [
-        "!xpcurreward",
-        "!xpcr"
-      ],
-      "Description": "Sets a currency reward on a specified level. Provide no amount in order to remove the reward.**Bot owner only**",
-      "Usage": [
-        "!xpcr 3 50"
-      ],
-      "Submodule": "Xp",
-      "Module": "Xp",
-      "Options": null
-    },
-    {
-      "Aliases": [
         "!xpnotify",
         "!xpn"
       ],
@@ -5360,7 +4560,7 @@
       ],
       "Description": "Adds xp to a user on the server. This does not affect their global ranking. You can use negative values.**Requires Administrator server permission.**",
       "Usage": [
-        "!xpadd 100 @b1nzy"
+        "!xpadd 100 @Sekushi"
       ],
       "Submodule": "Xp",
       "Module": "Xp",
@@ -5372,7 +4572,7 @@
       ],
       "Description": "Transfers the ownership of the club to another member of the club.",
       "Usage": [
-        "!clubtransfer @b1nzy"
+        "!clubtransfer @Sekushi"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5396,7 +4596,7 @@
       ],
       "Description": "Creates a club. You must be at least level 5 and not be in the club already.",
       "Usage": [
-        "!clubcreate b1nzy's friends"
+        "!clubcreate Sekushi's friends"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5420,7 +4620,7 @@
       ],
       "Description": "Shows information about the club.",
       "Usage": [
-        "!clubinfo b1nzy's friends#123"
+        "!clubinfo Sekushi's friends#123"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5456,7 +4656,7 @@
       ],
       "Description": "Apply to join a club. You must meet that club's minimum level requirement, and not be on its ban list.",
       "Usage": [
-        "!clubapply b1nzy's friends#123"
+        "!clubapply Sekushi's friends#123"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5468,7 +4668,7 @@
       ],
       "Description": "Accept a user who applied to your club.",
       "Usage": [
-        "!clubaccept b1nzy#1337"
+        "!clubaccept Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5492,7 +4692,7 @@
       ],
       "Description": "Kicks the user from the club. You must be the club owner. They will be able to apply again.",
       "Usage": [
-        "!clubkick b1nzy#1337"
+        "!clubkick Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5504,7 +4704,7 @@
       ],
       "Description": "Bans the user from the club. You must be the club owner. They will not be able to apply again.",
       "Usage": [
-        "!clubban b1nzy#1337"
+        "!clubban Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5516,7 +4716,7 @@
       ],
       "Description": "Unbans the previously banned user from the club. You must be the club owner.",
       "Usage": [
-        "!clubunban b1nzy#1337"
+        "!clubunban Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5576,7 +4776,7 @@
       ],
       "Description": "Resets specified user's XP, or the XP of all users in the server. You can't reverse this action.**Requires Administrator server permission.**",
       "Usage": [
-        "!xpreset @b1nzy",
+        "!xpreset @Sekushi",
         "!xpreset"
       ],
       "Submodule": "ResetCommands",
