@@ -2581,18 +2581,6 @@
       "Submodule": "NSFW",
       "Module": "NSFW",
       "Options": null
-    },
-    {
-      "Aliases": [
-        "!nsfwcc"
-      ],
-      "Description": "Clears nsfw cache.**Bot owner only**",
-      "Usage": [
-        "!nsfwcc"
-      ],
-      "Submodule": "NSFW",
-      "Module": "NSFW",
-      "Options": null
     }
   ],
   "Permissions": [
