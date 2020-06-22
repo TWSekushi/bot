@@ -5585,18 +5585,5 @@
     }
   ],
   "Global Reactions": [
-      {
-      "Aliases": [
-        "!kiss"
-      ],
-      "Description": "Resets specified user's XP, or the XP of all users in the server. You can't reverse this action.**Requires Administrator server permission.**",
-      "Usage": [
-        "!xpreset @b1nzy",
-        "!xpreset"
-      ],
-      "Submodule": "ResetCommands",
-      "Module": "Xp",
-      "Options": null
-    }
   ]
 }
