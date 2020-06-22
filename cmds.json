@@ -1204,7 +1204,7 @@
       ],
       "Description": "Warns a user.**Requires BanMembers server permission.**",
       "Usage": [
-        "!warn @b1nzy Very rude person"
+        "!warn @Sekushi Very rude person"
       ],
       "Submodule": "UserPunishCommands",
       "Module": "Administration",
@@ -1216,7 +1216,7 @@
       ],
       "Description": "See a list of warnings of a certain user.**Requires BanMembers server permission.**",
       "Usage": [
-        "!warnlog @b1nzy"
+        "!warnlog @Sekushi"
       ],
       "Submodule": "UserPunishCommands",
       "Module": "Administration",
@@ -2139,7 +2139,7 @@
       ],
       "Description": "Ask the 8ball a yes/no question.",
       "Usage": [
-        "!8ball Is b1nzy a nice guy?"
+        "!8ball Is Sekushi a nice guy?"
       ],
       "Submodule": "Games",
       "Module": "Games",
@@ -4808,7 +4808,7 @@
       ],
       "Description": "Sets one of available bot config settings to a specified value. Use the command without any parameters to get a list of available settings.**Bot owner only**",
       "Usage": [
-        "!bce CurrencyName b1nzy",
+        "!bce CurrencyName Sekushi",
         "!bce"
       ],
       "Submodule": "BotConfigCommands",
@@ -5171,8 +5171,8 @@
       ],
       "Description": "Adds or removes a blacklisted user. Blacklisted users will never receive the stream role.**Requires ManageRoles server permission.**",
       "Usage": [
-        "!srbl add @b1nzy#1234",
-        "!srbl rem @b1nzy#1234"
+        "!srbl add @Sekushi#1234",
+        "!srbl rem @Sekushi#1234"
       ],
       "Submodule": "StreamRoleCommands",
       "Module": "Utility",
@@ -5185,8 +5185,8 @@
       ],
       "Description": "Adds or removes a whitelisted user. Whitelisted users will receive the stream role even if they don't have the specified keyword in their stream title.**Requires ManageRoles server permission.**",
       "Usage": [
-        "!srwl add @b1nzy#1234",
-        "!srwl rem @b1nzy#1234"
+        "!srwl add @Sekushi#1234",
+        "!srwl rem @Sekushi#1234"
       ],
       "Submodule": "StreamRoleCommands",
       "Module": "Utility",
@@ -5360,7 +5360,7 @@
       ],
       "Description": "Adds xp to a user on the server. This does not affect their global ranking. You can use negative values.**Requires Administrator server permission.**",
       "Usage": [
-        "!xpadd 100 @b1nzy"
+        "!xpadd 100 @Sekushi"
       ],
       "Submodule": "Xp",
       "Module": "Xp",
@@ -5372,7 +5372,7 @@
       ],
       "Description": "Transfers the ownership of the club to another member of the club.",
       "Usage": [
-        "!clubtransfer @b1nzy"
+        "!clubtransfer @Sekushi"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5396,7 +5396,7 @@
       ],
       "Description": "Creates a club. You must be at least level 5 and not be in the club already.",
       "Usage": [
-        "!clubcreate b1nzy's friends"
+        "!clubcreate Sekushi's friends"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5420,7 +5420,7 @@
       ],
       "Description": "Shows information about the club.",
       "Usage": [
-        "!clubinfo b1nzy's friends#123"
+        "!clubinfo Sekushi's friends#123"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5456,7 +5456,7 @@
       ],
       "Description": "Apply to join a club. You must meet that club's minimum level requirement, and not be on its ban list.",
       "Usage": [
-        "!clubapply b1nzy's friends#123"
+        "!clubapply Sekushi's friends#123"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5468,7 +5468,7 @@
       ],
       "Description": "Accept a user who applied to your club.",
       "Usage": [
-        "!clubaccept b1nzy#1337"
+        "!clubaccept Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5492,7 +5492,7 @@
       ],
       "Description": "Kicks the user from the club. You must be the club owner. They will be able to apply again.",
       "Usage": [
-        "!clubkick b1nzy#1337"
+        "!clubkick Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5504,7 +5504,7 @@
       ],
       "Description": "Bans the user from the club. You must be the club owner. They will not be able to apply again.",
       "Usage": [
-        "!clubban b1nzy#1337"
+        "!clubban Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5516,7 +5516,7 @@
       ],
       "Description": "Unbans the previously banned user from the club. You must be the club owner.",
       "Usage": [
-        "!clubunban b1nzy#1337"
+        "!clubunban Sekushi#1337"
       ],
       "Submodule": "Club",
       "Module": "Xp",
@@ -5576,7 +5576,7 @@
       ],
       "Description": "Resets specified user's XP, or the XP of all users in the server. You can't reverse this action.**Requires Administrator server permission.**",
       "Usage": [
-        "!xpreset @b1nzy",
+        "!xpreset @Sekushi",
         "!xpreset"
       ],
       "Submodule": "ResetCommands",
@@ -5585,5 +5585,18 @@
     }
   ],
   "Global Reactions": [
+      {
+      "Aliases": [
+        "!kiss"
+      ],
+      "Description": "Pulls up an image while pinging a user.**Can't Disable.**",
+      "Usage": [
+        "!kiss @Sekushi",
+        "!kiss"
+      ],
+      "Submodule": "globreactions",
+      "Module": "Global Reactions",
+      "Options": null
+    }
   ]
 }
