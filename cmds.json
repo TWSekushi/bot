@@ -5584,19 +5584,85 @@
       "Options": null
     }
   ],
-  "Global Reactions": [
-      {
+  "GlobalReactions": [
+    {
       "Aliases": [
-        "!kiss"
+        "!Kiss",
+        "!Kiss"
       ],
-      "Description": "Pulls up an image while pinging a user.**Can't Disable.**",
+      "Description": "Kisses a user.",
       "Usage": [
-        "!kiss @Sekushi",
-        "!kiss"
+        "!Kiss @Sekushi"
       ],
-      "Submodule": "globreactions",
-      "Module": "Global Reactions",
+      "Submodule": "GlobalReactions",
+      "Module": "GlobalReactions",
       "Options": null
     },
-  ]
+    {
+      "Aliases": [
+        "!commands",
+        "!cmds"
+      ],
+      "Description": "List all of the bot's commands from a certain module. You can either specify the full name or only the first few letters of the module name.",
+      "Usage": [
+        "!commands Administration",
+        "!cmds Admin"
+      ],
+      "Submodule": "Help",
+      "Module": "Help",
+      "Options": null
+    },
+    {
+      "Aliases": [
+        "!help",
+        "!h"
+      ],
+      "Description": "Either shows a help for a single command, or DMs you help link if no arguments are specified.",
+      "Usage": [
+        "!h .cmds",
+        "!h"
+      ],
+      "Submodule": "Help",
+      "Module": "Help",
+      "Options": null
+    },
+    {
+      "Aliases": [
+        "!hgit"
+      ],
+      "Description": "Generates the commandlist.md file.**Bot owner only**",
+      "Usage": [
+        "!hgit"
+      ],
+      "Submodule": "Help",
+      "Module": "Help",
+      "Options": null
+    },
+    {
+      "Aliases": [
+        "!readme",
+        "!guide"
+      ],
+      "Description": "Sends a readme and a guide links to the channel.",
+      "Usage": [
+        "!readme",
+        "!guide"
+      ],
+      "Submodule": "Help",
+      "Module": "Help",
+      "Options": null
+    },
+    {
+      "Aliases": [
+        "!donate"
+      ],
+      "Description": "Instructions for helping the project financially.",
+      "Usage": [
+        "!donate"
+      ],
+      "Submodule": "Help",
+      "Module": "Help",
+      "Options": null
+    }
+  ],
 }
