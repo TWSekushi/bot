@@ -5583,5 +5583,19 @@
       "Module": "Xp",
       "Options": null
     }
+  ],
+  "Reactions": [
+  {
+      "Aliases": [
+        "!Kiss"
+      ],
+      "Description": "Kisses another user.",
+      "Usage": [
+        "!kiss @Sekushi"
+      ],
+      "Submodule": "Reactions",
+      "Module": "Reactions",
+      "Options": null
+    },
   ]
 }
